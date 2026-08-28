@@ -1,35 +1,43 @@
-# 🤖 Jarvis Voice Assistant
+# Jarvis Voice Assistant
 
-A Python-based voice assistant that listens to voice commands, understands user requests, and performs useful tasks such as opening websites, playing music, and responding using text-to-speech.
+A Python-based voice assistant that listens to voice commands, responds using text-to-speech, opens websites, plays music, and fetches news.
 
-## ✨ Features
+## Features
 
-- 🎤 Voice command recognition
-- 🔊 Text-to-speech responses
-- 🌐 Open websites using voice commands
-- 🎵 Play music using voice commands
-- 💻 Perform basic computer tasks
-- 🤖 AI integration ready
-- 🔐 Secure environment variable setup for API keys
+* Voice command recognition
+* Text-to-speech responses
+* Open websites using voice commands
+* Play music
+* Fetch latest news
+* AI-powered conversation
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- Python
-- Speech Recognition
-- Text-to-Speech
-- Python-dotenv
-- OpenAI API integration
-- Git & GitHub
+* Python
+* SpeechRecognition
+* pyttsx3
+* Requests
+* PyAutoGUI
+* OpenAI API (if applicable)
 
-## 📁 Project Structure
+## Installation
 
-```text
-jarvis-voice-assistant/
-│
-├── client.py
-├── main.py
-├── musiclibrary.py
-├── TEST.PY
-├── README.md
-├── requirements.txt
-└── .gitignore
+```bash
+git clone https://github.com/satyamkarn06/jarvis-voice-assistant.git
+cd jarvis-voice-assistant
+pip install -r requirements.txt
+```
+
+## How to Run
+
+```bash
+python main.py
+```
+
+## Future Improvements
+
+* GUI interface
+* Better wake-word detection
+* Weather support
+* Calendar integration
+* Cross-platform support
