@@ -31,5 +31,5 @@ jarvis-voice-assistant/
 ├── musiclibrary.py
 ├── TEST.PY
 ├── README.md
-├── .gitignore
-└── .env
+├── requirements.txt
+└── .gitignore
