@@ -14,7 +14,7 @@ recognizer = sr.Recognizer()
  
 
 def speak(text):
-    print("Speaking: ", text)
+    print(text)
 
     engine = pyttsx3.init()
     engine.setProperty("rate", 170)
